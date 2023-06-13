@@ -29,7 +29,7 @@
         .calendar--nav {
             margin: -15px -15px 15px;
             padding: 0 15px;
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)0%, rgba(255, 255, 255, 0.5) 70%), url("https://i.imgur.com/hy1XbPr.jpeg");
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)0%, rgba(255, 255, 255, 0.7) 70%), url("https://i.imgur.com/bwwKYgu.png");
             font-family: 'Abril Fatface', cursive;
             color: #494a57;
             height: 200px;
@@ -130,7 +130,7 @@
         .calendar--days span.start,
         .calendar--days span.between,
         .calendar--days span.end {
-            background-color: #98bcf0;
+            background-color: #C1B6AD;
             color: #fff;
         }
 
@@ -153,7 +153,7 @@
             top: 0;
             bottom: 0;
             left: 100%;
-            background-color: #98bcf0;
+            background-color: #C1B6AD;
             width: 20px;
         }
 
@@ -164,7 +164,7 @@
             top: 0;
             bottom: 0;
             right: 100%;
-            background-color: #98bcf0;
+            background-color: #C1B6AD;
             width: 20px;
         }
 
@@ -272,8 +272,8 @@
 
                 this.state = {
                     date: moment(),
-                    startDate: moment().subtract(5, 'day'),
-                    endDate: moment().add(3, 'day')
+                    startDate: moment().subtract(0, 'day'),
+                    endDate: moment().add(0, 'day') // 원본 코드 각각 5, 3
                 };
 
             }
