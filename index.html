@@ -231,7 +231,7 @@
             let labels = [];
 
             for (let i = 1; i <= 7; i++) {
-                labels.push( /*#__PURE__*/React.createElement("span", { className: "label" }, moment().day(i).format('ddd')));
+                labels.push( /*#__PURE__*/React.createElement("span", { className: "label" }, moment().day(i).format('d')));
             }
 
             for (let i = firstDayDate.day(); i > 1; i--) {
